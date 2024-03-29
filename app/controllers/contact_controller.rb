@@ -4,6 +4,7 @@ class ContactController < ApplicationController
     end
 
     def submit_contact_form
-        flash[:notice]="Thank you for your message, we will contact yoy soon."
+        render plain: "Thank you for your message, we will contact yoy soon."
     end
+
 end

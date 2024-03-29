@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get "about", to: "about#index"
   get "contact", to: "contact#index"
   post "contact", to: "contact#index"
+  #get "/Y.png"
 end
